@@ -9,7 +9,7 @@ def line(queu)
     queu.each_with_index.map do |name, index|
       queu_ordered << (index+1).to_s + ". " + name.to_s + " "
     end
-    puts queu_ordered.join()
+    puts queu_ordered.join(" ")
   end
 end
 
