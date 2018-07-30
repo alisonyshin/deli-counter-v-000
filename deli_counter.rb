@@ -8,7 +8,7 @@ def line(queu)
     queu.each_with_index.map do |name, index|
       (index+1).to_s + ". " + name.to_s + " "
     end
-    queu.join
+    puts queu.join
   end
 end
 
