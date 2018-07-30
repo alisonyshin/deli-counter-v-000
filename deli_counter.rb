@@ -6,6 +6,7 @@ def line(queu)
     puts "The line is currently empty."
   else
     queu.each_with_index{|name,index| puts "#{index+1}. #{name}"}
+    queu.join(",")
   end
 end
 
