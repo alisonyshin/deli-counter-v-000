@@ -5,6 +5,7 @@ def line(queu)
   if queu.empty?
     puts "The line is currently empty."
   else
+    queu_ordered=[]
     queu.each_with_index.map do |name, index|
       queu_ordered = (index+1).to_s + ". " + name.to_s + " "
     end
