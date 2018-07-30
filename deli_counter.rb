@@ -15,7 +15,7 @@ end
 
 def take_a_number(queu,name)
   queu.push(name)
-  puts "Welcome, #{name}. You are number #{queu.index(name)+1} in line."
+  puts "Welcome, #{name}. You are number #{queu.length} in line."
 end
 
 def now_serving(queu)
