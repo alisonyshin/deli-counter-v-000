@@ -13,9 +13,6 @@ def line(queu)
   end
 end
 
-katz_deli = ["Ali","Bali","Cali"]
-line(katz_deli)
-
 def take_a_number(queu,name)
   queu.push(name)
   puts "Welcome, #{name}. You are number #{queu.index(name)+1} in line."
