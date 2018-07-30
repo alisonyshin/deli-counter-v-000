@@ -6,7 +6,7 @@ def line(queu)
     puts "The line is currently empty."
   else
     queu.each_with_index.map do |name, index|
-      (index+1).to_s + ". " + name.to_s
+      (index+1).to_s + ". " + name.to_s + " "
     end
     _with_index{|name,index| puts "#{index+1}. #{name}"}
     queu[0]
