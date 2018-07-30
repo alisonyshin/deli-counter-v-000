@@ -5,7 +5,7 @@ def line(queu)
   if queu.empty?
     puts "The line is currently empty."
   else
-    queu.each_with_index.map do |name, index|
+    puts queu.each_with_index.map do |name, index|
       (index+1).to_s + ". " + name.to_s + " "
     end
     puts queu.join
