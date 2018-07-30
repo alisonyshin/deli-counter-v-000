@@ -12,6 +12,8 @@ def line(queu)
   end
 end
 
+katz_deli = ["Ali","Bali","Cali"]
+line(katz_deli)
 
 def take_a_number(queu,name)
   queu.push(name)
@@ -26,4 +28,4 @@ def now_serving(queu)
   end
 end
 
-#now_serving(katz_deli)
+
